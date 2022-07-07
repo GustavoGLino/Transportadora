@@ -238,4 +238,24 @@ a.botao {
     background-color: #333333;
     border-color: 1px solid #666666;
 }
+#botoes{
+    display: flex;
+    margin-top: 10px;
+}
+#caixa_formulario input[type="submit"], #caixa_formulario input[type="reset"]{
+    background-color: #FF9900;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #232323;
+}
+#caixa_formulario input[type="submit"]{
+    margin-left: 0px;
+}
+#rodape_nav li{
+    display: flex;
+    margin: 5px 0;
 
+}
+#rodape_nav li a{
+    padding: 5px 0;
+}
